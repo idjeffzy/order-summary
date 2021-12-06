@@ -1,0 +1,120 @@
+body {
+  background-image: url("images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+}
+
+button {
+  border: 0 none;
+  border-radius: 8px;
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 0 8px 5px hsl(225, 100%, 94%);
+  color: #fff;
+  display: block;
+  font: bold 18px 'Red Hat Display', sans-serif;
+  margin: 20px auto 20px;
+  padding: 15px 55px;
+}
+
+/* Class Selectors */
+.cartbox {
+  background-color: white;
+  border-radius: 10px;
+  margin: 60px auto;
+  padding-bottom: 50px;
+  text-align: center;
+  width: 90%;
+}
+
+.hdr-img {
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  width: 100%;
+}
+
+.hdr {
+  color: hsl(223, 47%, 23%);
+  font: normal 900 24px 'Red Hat Display', sans-serif;
+}
+
+.desc {
+  color: hsl(224, 23%, 55%);
+  font: normal 500 15px/1.5 'Red Hat Display', sans-serif;
+  margin: auto;
+  width: 80%;
+}
+
+.itm {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px 15px;
+  padding: 10px 10px;
+}
+
+.div1 {
+  display: flex;
+}
+
+.div2 {
+  display: flex;
+}
+
+.itmbx {
+  display: flex;
+}
+
+.item-name {
+  font: bold 15px 'Red Hat Display', sans-serif;
+  font-weight: 700;
+  margin: 0;
+  align-self: center;
+  margin-left: 12px;
+}
+
+.price {
+  color: hsl(224, 23%, 55%);
+}
+
+.chngbx {
+  font: bold 13px 'Red Hat Display', sans-serif;
+  font-weight: 700;
+}
+
+.chng {
+  color: hsl(245, 75%, 52%);
+}
+
+.cancel {
+  font: bold 18px 'Red Hat Display', sans-serif;
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  .itm {
+    width: 70%;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    padding-top: 20px;
+  }
+
+  .cartbox {
+    width: 35%;
+  }
+
+  button {
+    padding: 10px 55px;
+  }
+}
